@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "deepsynth"
-version = "0.1.1"
+version = "0.1.2"
 description = "A Python package for synthesizing deep learning models using advanced techniques like NAS, Hyperparameter Optimization, and more."
 authors = ["venombolteop <venombolteop@gmail.com>"]
 readme = "README.md"
@@ -10,7 +10,7 @@ repository = "https://github.com/venombolteop/deepsynth"
 documentation = "https://github.com/venombolteop/deepsynth/wiki"
 
 [tool.poetry.dependencies]
-python = ">=3.9,<3.10"
+python = ">=3.9,<4.0"
 numpy = "^1.21.0"
 tensorflow = "^2.6.0"
 keras = "^2.6.0"
