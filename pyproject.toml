@@ -13,7 +13,7 @@ documentation = "https://github.com/venombolteop/deepsynth/wiki"
 python = ">=3.10,<4.0"
 numpy = "^2.1.1"
 h5py = "^3.9.0"
-tensorflow = "*"  # Example version, adjust as needed
+tensorflow = "2.17.0"  # Example version, adjust as needed
 keras = "*"      # Example version, adjust as needed
 hyperopt = "*"    # Example version, adjust as needed
 
