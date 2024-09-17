@@ -13,9 +13,9 @@ documentation = "https://github.com/venombolteop/deepsynth/wiki"
 python = ">=3.9,<4.0"
 numpy = "^1.23.0"
 h5py = "^3.9.0"
-tensorflow = "^2.12.0"  # Example version, adjust as needed
-keras = "^2.12.0"      # Example version, adjust as needed
-hyperopt = "^0.2.7"    # Example version, adjust as needed
+tensorflow = "*"  # Example version, adjust as needed
+keras = "*"      # Example version, adjust as needed
+hyperopt = "*"    # Example version, adjust as needed
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.2.5"
