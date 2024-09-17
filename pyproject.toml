@@ -10,16 +10,16 @@ repository = "https://github.com/venombolteop/deepsynth"
 documentation = "https://github.com/venombolteop/deepsynth/wiki"
 
 [tool.poetry.dependencies]
-python = ">=3.9,<4.0"
-numpy = "^1.21.0"
-tensorflow = "^2.6.0"
-keras = "^2.6.0"
-hyperopt = "^0.2.7"
+python = "*"
+numpy = "*"
+tensorflow = "*"
+keras = "*"
+hyperopt = "*"
 
 [tool.poetry.dev-dependencies]
-pytest = "^6.2.5"
-black = "^21.7b0"
-flake8 = "^3.9.2"
+pytest = "*"
+black = "*"
+flake8 = "*"
 
 [tool.poetry.scripts]
 deepsynth = "deepsynth.cli:main"
