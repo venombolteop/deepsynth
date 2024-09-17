@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='deepsynth',
-    version='0.1.2',
+    version='0.1.3',
     packages=find_packages(),
     install_requires=['numpy', 'tensorflow', 'hyperopt', 'matplotlib', 'seaborn'],
     description='A Python package for synthesizing deep learning models with automatic optimization.',
