@@ -10,7 +10,7 @@ repository = "https://github.com/venombolteop/deepsynth"
 documentation = "https://github.com/venombolteop/deepsynth/wiki"
 
 [tool.poetry.dependencies]
-python = "*"
+python = ">=3.8.1,<4.0"
 numpy = "*"
 tensorflow = "*"
 keras = "*"
