@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "deepsynth"
-version = "0.1.2"
+version = "0.1.3"
 description = "A Python package for synthesizing deep learning models using advanced techniques like NAS, Hyperparameter Optimization, and more."
 authors = ["venombolteop <venombolteop@gmail.com>"]
 readme = "README.md"
