@@ -3,7 +3,7 @@ name: Publish Package
 on:
   push:
     tags:
-      - 'v0.1.0'  # Triggers on version tags like v1.0.0
+      - 'v*.*.*'  # Triggers on version tags like v1.0.0
 
 jobs:
   publish:
