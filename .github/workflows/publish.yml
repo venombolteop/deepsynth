@@ -23,9 +23,14 @@ jobs:
           curl -sSL https://install.python-poetry.org | python3 -
           export PATH="$HOME/.local/bin:$PATH"
 
+      - name: Configure Poetry
+        run: |
+          poetry config virtualenvs.create false
+          poetry config repositories.pypi https://upload.pypi.org/legacy/
+
       - name: Install dependencies
         run: |
-          poetry install
+          poetry install --no-interaction --no-ansi
 
       - name: Build and Publish
         env:
@@ -33,4 +38,4 @@ jobs:
         run: |
           poetry config pypi-token.pypi $PYPI_TOKEN
           poetry build
-          poetry publish --repository pypi
+          poetry publish --repository pypi --username __token__ --password $PYPI_TOKEN
