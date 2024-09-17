@@ -3,7 +3,7 @@ name = "deepsynth"
 version = "0.1.0"
 description = "A Python package for synthesizing deep learning models using advanced techniques like NAS, Hyperparameter Optimization, and more."
 authors = ["venombolteop <venombolteop@gmail.com>"]
-
+readme = "README.md"
 license = "MIT"
 homepage = "https://github.com/venombolteop/deepsynth"
 repository = "https://github.com/venombolteop/deepsynth"
