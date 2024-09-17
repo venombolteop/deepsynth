@@ -2,6 +2,8 @@
 
 **DeepSynth** is a cutting-edge Python package for synthesizing deep learning models using advanced techniques such as Neural Architecture Search (NAS), Hyperparameter Optimization, Transfer Learning, and more. Designed to streamline the model-building process, DeepSynth enables users to create high-performance models with minimal manual effort.
 
+[![Publish Package](https://github.com/venombolteop/deepsynth/actions/workflows/publish.yml/badge.svg?branch=main)](https://github.com/venombolteop/deepsynth/actions/workflows/publish.yml)
+
 ## Key Features
 
 - **Neural Architecture Search (NAS)**: Explore various model architectures automatically to identify the best configuration for your task.
