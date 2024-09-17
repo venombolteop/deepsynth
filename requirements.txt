@@ -1,5 +1,5 @@
 numpy>=2.1.1
-tensorflow
+tensorflow==2.17.0
 hyperopt
 matplotlib
 seaborn
